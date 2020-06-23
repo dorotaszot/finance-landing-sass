@@ -1,0 +1,22 @@
+footer {
+  background-color: $secondary-background-color;
+}
+.footer-container {
+  display: flex;
+  text-align: center;  
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  a {
+    display: block;
+  }
+  i {
+    @include icon-secondary-font-color;
+    margin-bottom: 20px;
+  }
+}
+
+.main-footer .main-container p {
+  text-align: center;
+  padding-bottom: 30px;
+}
